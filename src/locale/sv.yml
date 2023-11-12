@@ -1,6 +1,6 @@
 core:
   err404:
-    backToHomePage: Tillbaka till startsidan
+    backToHomePage: Tillbaka till startsidan 33
     pageNotFound: Sidan hittades inte
   home:
     welcome: Det här kommer att bli Zetkin
@@ -1826,7 +1826,7 @@ zui:
     createTask: Skapa uppgift
     requestError: Det blev fel
   submitOrCancel:
-    cancel: Avbryt3
+    cancel: Avbryt5
     submit: Skicka in
   suffixedNumber:
     thousands: '{num}K'
