@@ -1,6 +1,6 @@
 core:
   err404:
-    backToHomePage: Tillbaka till startsidan 333453
+    backToHomePage: Tillbaka till startsidan xx
     pageNotFound: Sidan hittades inte
   home:
     welcome: Det här kommer att bli Zetkin
