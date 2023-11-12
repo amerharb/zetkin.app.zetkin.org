@@ -1,7 +1,7 @@
 core:
   err404:
-    backToHomePage: Back to home page 99
-    pageNotFound: Page not found
+    backToHomePage: Back to home page xxx
+    pageNotFound: Page not found 100
   home:
     welcome: This will become Zetkin
   legacy:
