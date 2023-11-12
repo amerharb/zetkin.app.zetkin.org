@@ -1,9 +1,9 @@
 core:
   err404:
-    backToHomePage: Tillbaka till startsidan xx
+    backToHomePage: Tillbaka till startsidan xxx
     pageNotFound: Sidan hittades inte
   home:
-    welcome: Det här kommer att bli Zetkin
+    welcome: Det här kommer att bli Zetkin!
   legacy:
     continueButton: Fortsätt till gamla Zetkin
     header: Du blir omdirigerad
