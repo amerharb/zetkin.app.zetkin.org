@@ -1,7 +1,7 @@
 core:
   err404:
-    backToHomePage: Tillbaka till startsidan xxx
-    pageNotFound: Sidan hittades inte
+    backToHomePage: Tillbaka till startsidan OOO
+    pageNotFound: Sidan hittades inte OOO
   home:
     welcome: Det här kommer att bli Zetkin!
   legacy:
