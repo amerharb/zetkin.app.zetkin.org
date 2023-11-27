@@ -1,6 +1,6 @@
 core:
   err404:
-    backToHomePage: Tillbaka till startsidan xxx
+    backToHomePage: Tillbaka till startsidan ZZZ
     pageNotFound: Sidan hittades inte
   home:
     welcome: Det här kommer att bli Zetkin!
@@ -25,7 +25,7 @@ feat:
       conversation: Samtal
       events: Events
       folders: Listor
-      insights: Insikter
+      insights: Insikter ZZZ
       instances: Exempel
       journeys: Journeys
       manage: Hantera
