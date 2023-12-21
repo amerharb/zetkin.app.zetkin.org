@@ -1880,5 +1880,5 @@ zui:
           complete: '{actor} klarade en milstolpe'
           deadline: '{actor} uppdaterade en milstolpes deadline'
           deadlineRemove: deadline togs bort
-          deadlineUpdate: ny deadline {datetime}
-          incomplete: '{actor} markerade en milstolpe som ofärdig xxx'
+          deadlineUpdate: 'ny deadline {datetime} #1350'
+          incomplete: '{actor} markerade en milstolpe som ofärdig #1351 (last)'
