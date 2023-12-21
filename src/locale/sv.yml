@@ -1,6 +1,6 @@
 core:
   err404:
-    backToHomePage: Tillbaka till startsidanxxx
+    backToHomePage: Tillbaka till startsidan xxx
     pageNotFound: Sidan hittades inte
   home:
     welcome: Det här kommer att bli Zetkin
@@ -1814,7 +1814,7 @@ zui:
   personSelect:
     keepTyping: Fortsätt skriv för att börja söka
     noResult: Hittade ingen person som matchade
-    search: Skriv för att börja söka
+    search: Skriv för att börja söka xxxyyy
     searching: Söker...
   snackbar:
     error: Åh nej, något gick fel!
