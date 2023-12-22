@@ -1,0 +1,8 @@
+baseBranch: main
+projects:
+  - path: .
+    messages:
+      format: yaml
+      path: locale
+    translations:
+      path: locale
