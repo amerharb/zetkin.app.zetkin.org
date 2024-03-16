@@ -1,6 +1,6 @@
-baseBranch: main
 projects:
   - path: .
+    languages: [en, sv]
     messages:
       format: ts
       path: src
