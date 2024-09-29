@@ -1,6 +1,6 @@
 core:
   err404:
-    backToHomePage: Back to home page
+    backToHomePage: Back to home pages VVV
     pageNotFound: Page not found
   home:
     welcome: This will become Zetkin
@@ -1709,7 +1709,7 @@ zui:
     defaultTitle: Confirm
     defaultWarningText: Are you sure you want to do this action? It can not be undone.
   copyToClipboard:
-    copied: Copied
+    copied: Copied zzz
     copiedValue: Copied "{value}"
     copy: Copy
   dataTableSearch:

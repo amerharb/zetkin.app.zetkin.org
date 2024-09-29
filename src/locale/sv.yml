@@ -1,11 +1,11 @@
 core:
   err404:
-    backToHomePage: Tillbaka till startsidan 9999
+    backToHomePage: Tillbaka till startsidan 8888
     pageNotFound: Sidan hittades inte
   home:
     welcome: Det här kommer att bli Zetkin
   legacy:
-    continueButton: Fortsätt till gamla Zetkin
+    continueButton: Fortsätt till gamla Zetkin ooooo
     header: Du blir omdirigerad
     info: Du använder en betaversion av Zetkin som inte stödjer den funktion du vill
       använda. Du omdirigeras nu till den äldre versionen av Zetkin som stödjer
