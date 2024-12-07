@@ -91,7 +91,6 @@ feat:
       month: Månad
       week: Vecka
     selectionBar:
-      copy: Kopiera
       deselect: Avmarkera
       editEvents: Redigera event
       ellipsisMenu:
@@ -105,7 +104,6 @@ feat:
         print: Skriv ut schema
         publish: Publicera nu
         unpublish: Avpublicera
-      move: Flytta
       moveCopyButtons:
         copy: Kopiera
         copyMenuHeader: Kopiera {numberOfEvents} events till
@@ -179,7 +177,6 @@ feat:
       defineButton: Ändra syfte
       subtitle: Personer som uppfyller syftet
       title: Klart
-    insightsHeader: Samtal och konversationer
     organizerActionPane:
       markAsSolved: Markera som löst
       markAsUnsolved: Markera som olöst
@@ -207,7 +204,6 @@ feat:
     tabs:
       callers: Ringare
       conversation: Samtal
-      insights: Insikter
       overview: Översikt
     targets:
       defineButton: Definiera målgrupp
@@ -254,7 +250,6 @@ feat:
       unsorted: Osorterade projekt
       upcoming: '{numEvents, number} framtida event.'
     allProjects:
-      linkToSummary: Gå till mina aktiva projekt.
       noActivities: Om din organisation har aktiviteter som inte hör till ett projekt
         kommer de att visas här.
       viewArchive: Visa arkiv
@@ -679,7 +674,6 @@ feat:
     placeholder: Skriv för att söka
     results:
       callassignment: Ringuppdrag
-      campaign: Kampanj
       people: Människor
       person: Person
       survey: Enkät
@@ -723,15 +717,9 @@ feat:
           'false': en tom lista
           'true': en lista på alla personer i organisationen
       callBlocked:
-        addRemoveSelect:
-          add: Lägg till
-          sub: Ta bort
         inputString: '{addRemoveSelect} personer som är blockerade från att ringa av
           någon som helst anledning'
       callHistory:
-        addRemoveSelect:
-          add: Lägg till
-          sub: Ta bort
         assignmentSelect:
           any: något ringuppdrag
           assignment: uppgift "{assignmentTitle}"
@@ -753,9 +741,6 @@ feat:
         activitySelect:
           activity: typ "{activity}"
           any: någon typ
-        addRemoveSelect:
-          add: Lägg till
-          sub: Ta bort
         bookedSelect:
           booked: varit bokade
           signed_up: anmäld
@@ -777,9 +762,6 @@ feat:
           any: någon plats
           location: plats "{location}"
       mostActive:
-        addRemoveSelect:
-          add: Lägg till
-          sub: Ta bort
         examples:
           one: Lägg till organisationens 100 mest aktiva medlemmar fram till idag.
           two: Ta bort organisationens 5 mest aktiva medlemmar närsomhelst i tiden.
@@ -788,9 +770,6 @@ feat:
         numPeople: '{numPeople, plural, one {person} other {personer}}'
         numPeopleSelect: '{numPeopleSelect}'
       personData:
-        addRemoveSelect:
-          add: Lägg till
-          sub: ta bort
         ellipsis: ...
         examples:
           one: Lägg till alla personer vars förnamn är 'Clara' och vars efternamn är
@@ -812,9 +791,6 @@ feat:
         fieldTuple: '{first} och {second}'
         inputString: '{addRemoveSelect} någon person vars {criteria}.'
       personField:
-        addRemoveSelect:
-          add: Lägg till
-          sub: Ta bort
         edit:
           date: '{fieldSelect} är {timeFrame}'
           none: Organisationen har inga anpassade fält ännu.
@@ -828,9 +804,6 @@ feat:
           text: '{fieldName} matchar "{searchTerm}"'
           url: '{fieldName} matchar "{searchTerm}"'
       personTags:
-        addRemoveSelect:
-          add: Lägg till
-          sub: Ta bort
         condition:
           conditionSelect:
             all: alla
@@ -853,9 +826,6 @@ feat:
         inputString: '{addRemoveSelect} personer med {condition} av följande etiketter:
           {tags}'
       personView:
-        addRemoveSelect:
-          add: Lägg till
-          sub: Ta bort
         examples:
           one: Lägg till personer som finns i listan "Aktiva medlemmar 2022".
           two: Ta bort personer som inte finns i listan "Aktiva medlemmar 2022".
@@ -870,17 +840,11 @@ feat:
         addLimitRemoveSelect:
           add: lägg till
           sub: ta bort
-        addRemoveSelect:
-          add: lägg till
-          sub: ta bort
         examples:
           one: Lägg slumpmässigt till 20 personer i organisationen.
           two: Ta slumpmässigt bort 15% av personerna i organisationen.
         inputString: Slumpvis {addRemoveSelect} {quantity} i organisationen.
       subQuery:
-        addRemoveSelect:
-          add: Lägg till
-          sub: Under
         examples:
           one: Ta bort personer som matchar den Smarta sökningen 'Personer som bor i
             Stockholm'
@@ -912,9 +876,6 @@ feat:
               än.
             standalone: En fristående Smart sökning
       surveyOption:
-        addRemoveSelect:
-          add: Lägg till
-          sub: Ta bort
         conditionSelect:
           all: alla
           any: någon
@@ -933,9 +894,6 @@ feat:
           none: Den här organisationen har inga enkäter ännu
           survey: enkät
       surveyResponse:
-        addRemoveSelect:
-          add: Lägg till
-          sub: Ta bort
         examples:
           one: Personer som svarat 'organisera' på någon fråga i 'Medlemsenkäten'
           two: Personer som har svarat i enkäten 'Medlemsenkäten' (fråga 'Fråga ett') som
@@ -956,9 +914,6 @@ feat:
           none: Organisationen har inga enkäter ännu
           survey: enkät "{surveyTitle}"
       surveySubmission:
-        addRemoveSelect:
-          add: Lägg till
-          sub: Ta bort
         examples:
           one: Personer som har lämnat in svar i enkäten 'Medlemsenkät 2020' före idag.
           two: Personer som har lämnat in svar i enkäten 'Medlemsenkät 2020' under de
@@ -970,9 +925,6 @@ feat:
           none: Organisationen har inga enkäter ännu
           survey: enkät "{surveyTitle}"
       task:
-        addRemoveSelect:
-          add: Lägg till
-          sub: Ta bort
         campaignSelect:
           any: något projekt
           campaign: projekt "{campaign}"
@@ -992,9 +944,6 @@ feat:
           completed: färdig
           ignored: ignorerad
       user:
-        addRemoveSelect:
-          add: Lägg till
-          sub: Ta bort
         connectedSelect:
           'false': inte kopplad
           'true': kopplad
@@ -1725,30 +1674,53 @@ feat:
         owner: Ägare
         title: Titel
       empty: Du har inte skapat några listor ännu.
-glob:
-  accessLevels:
-    configure: Redigera & Konfigurera
-    edit: Redigerar
-    readonly: Skrivskyddad
-  personFields:
-    alt_phone: Alternativt telefonnummer
-    city: Stad
-    co_address: C/O Adress
-    country: Land
-    email: E-post
-    ext_id: Externt ID
-    first_name: Förnamn
-    gender: Kön
-    id: ID
-    is_user: Är användare
-    last_name: Efternamn
-    phone: Telefonnummer
-    street_address: Adress
-    zip_code: Postnummer
-  roles:
-    admin: Admin
-    organizer: Organisatör
 zui:
+  timeline:
+    addNotePlaceholder: Skriv här för att lämna en anteckning
+    email:
+      headers:
+        cc: CC
+        from: Från
+        to: Till
+    expand: visa hela tidslinjen
+    filter:
+      byType:
+        all: Alla
+        files: Filer
+        journey: Journey
+        milestones: Milstolpar
+        notes: Anteckningar
+        people: Människor
+        tags: Taggar
+      filterSelectLabel: 'Visa: {filter}'
+      warning: Tidslinjen filtreras. Klicka här för att ta bort filtret.
+    updates:
+      any:
+        addtags: '{actor} lade till {count, plural, =1 {en etikett} other {#
+          etiketter}}'
+        removetags: '{actor} tog bort {count, plural, =1 {en etikett} other {# etiketter}}'
+      journeyinstance:
+        addassignee: '{actor} tilldelas {assignee}'
+        addnote: '{actor} lade till en anteckning'
+        addsubject: '{actor} lade till {subject}'
+        close:
+          header: '{actor} avslutade journeyn'
+        convert: '{actor} konverterad från {oldLabel} till {newLabel}'
+        create:
+          header: '{actor} starade en ny resa'
+        open: '{actor} öppnade resan igen'
+        removeassignee: '{actor} tog bort {assignee} som ansvarig'
+        removesubject: '{actor} tog bort {subject}'
+        update:
+          readMore: Läs mer
+          summary: '{actor} redigerade sammanfattningen'
+          title: '{actor} redigerade titeln'
+        updatemilestone:
+          complete: '{actor} klarade en milstolpe'
+          deadline: '{actor} uppdaterade en milstolpes deadline'
+          deadlineRemove: deadline togs bort
+          deadlineUpdate: ny deadline {datetime}
+          incomplete: '{actor} markerade en milstolpe som ofärdig'
   accessList:
     added: Tillagd av {sharer} {updated}
     removeAccess: Ta bort behörighet
@@ -1797,7 +1769,6 @@ zui:
   lists:
     showMore: Visa mer...
   organizeSidebar:
-    allOrganizations: Alla organisationer
     areas: Areas
     home: Hem
     journeys: Journeys
@@ -1824,7 +1795,6 @@ zui:
     createCampaign: Skapa kampanj
     createEvent: Skapa event
     createTask: Skapa uppgift
-    requestError: Det blev fel
   submitOrCancel:
     cancel: Avbryt
     submit: Skicka in
@@ -1836,49 +1806,3 @@ zui:
     multiDayToday: Idag, {start} - {endDate}, {end}
     singleDay: '{date}, {start} - {end}'
     singleDayToday: Idag, {start} - {end}
-  timeline:
-    addNotePlaceholder: Skriv här för att lämna en anteckning
-    email:
-      headers:
-        cc: CC
-        from: Från
-        to: Till
-    expand: visa hela tidslinjen
-    filter:
-      byType:
-        all: Alla
-        files: Filer
-        journey: Journey
-        milestones: Milstolpar
-        notes: Anteckningar
-        people: Människor
-        tags: Taggar
-      filterSelectLabel: 'Visa: {filter}'
-      warning: Tidslinjen filtreras. Klicka här för att ta bort filtret.
-    updates:
-      any:
-        addtags: '{actor} lade till {count, plural, =1 {en etikett} other {#
-          etiketter}}'
-        removetags: '{actor} tog bort {count, plural, =1 {en etikett} other {# etiketter}}'
-      journeyinstance:
-        addassignee: '{actor} tilldelas {assignee}'
-        addnote: '{actor} lade till en anteckning'
-        addsubject: '{actor} lade till {subject}'
-        close:
-          header: '{actor} avslutade journeyn'
-        convert: '{actor} konverterad från {oldLabel} till {newLabel}'
-        create:
-          header: '{actor} starade en ny resa'
-        open: '{actor} öppnade resan igen'
-        removeassignee: '{actor} tog bort {assignee} som ansvarig'
-        removesubject: '{actor} tog bort {subject}'
-        update:
-          readMore: Läs mer
-          summary: '{actor} redigerade sammanfattningen'
-          title: '{actor} redigerade titeln'
-        updatemilestone:
-          complete: '{actor} klarade en milstolpe'
-          deadline: '{actor} uppdaterade en milstolpes deadline'
-          deadlineRemove: deadline togs bort
-          deadlineUpdate: ny deadline {datetime}
-          incomplete: '{actor} markerade en milstolpe som ofärdig'
