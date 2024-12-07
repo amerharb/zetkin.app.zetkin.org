@@ -1,6 +1,6 @@
 core:
   err404:
-    backToHomePage: Back to home page
+    backToHomePage: Back to home pagevsdf
     pageNotFound: Page not found
   home:
     welcome: This will become Zetkin
@@ -1674,30 +1674,52 @@ feat:
         owner: Owner
         title: Title
       empty: You haven't created any lists yet.
-glob:
-  accessLevels:
-    configure: Edit & Configure
-    edit: Editing
-    readonly: Read-only
-  personFields:
-    alt_phone: Alternate Phone Number
-    city: City
-    co_address: C/O Address
-    country: Country
-    email: Email
-    ext_id: External ID
-    first_name: First Name
-    gender: Gender
-    id: ID
-    is_user: Is user
-    last_name: Last Name
-    phone: Phone Number
-    street_address: Address
-    zip_code: Post Code
-  roles:
-    admin: Admin
-    organizer: Organizer
 zui:
+  timeline:
+    addNotePlaceholder: Enter text to leave a note
+    email:
+      headers:
+        cc: CC
+        from: From
+        to: To
+    expand: show full timeline
+    filter:
+      byType:
+        all: All
+        files: Files
+        journey: Journey
+        milestones: Milestones
+        notes: Notes
+        people: People
+        tags: Tags
+      filterSelectLabel: 'Show: {filter}'
+      warning: The timeline is being filtered. Click here to remove the filter.
+    updates:
+      any:
+        addtags: '{actor} added {count, plural, =1 {a tag} other {# tags}}'
+        removetags: '{actor} removed {count, plural, =1 {a tag} other {# tags}}'
+      journeyinstance:
+        addassignee: '{actor} assigned {assignee}'
+        addnote: '{actor} added a note'
+        addsubject: '{actor} added {subject}'
+        close:
+          header: '{actor} closed the journey'
+        convert: '{actor} converted from {oldLabel} to {newLabel}'
+        create:
+          header: '{actor} started a new journey'
+        open: '{actor} opened the journey again'
+        removeassignee: '{actor} unassigned {assignee}'
+        removesubject: '{actor} removed {subject}'
+        update:
+          readMore: Read more
+          summary: '{actor} edited the summary'
+          title: '{actor} edited the title'
+        updatemilestone:
+          complete: '{actor} completed a milestone'
+          deadline: '{actor} updated a milestone deadline'
+          deadlineRemove: deadline was removed
+          deadlineUpdate: now due {datetime}
+          incomplete: '{actor} marked a milestone as incomplete'
   accessList:
     added: Added by {sharer} {updated}
     removeAccess: Remove access
@@ -1792,48 +1814,3 @@ zui:
     multiDayToday: Today, {start} - {endDate}, {end}
     singleDay: '{date}, {start} - {end}'
     singleDayToday: Today, {start} - {end}
-  timeline:
-    addNotePlaceholder: Enter text to leave a note
-    email:
-      headers:
-        cc: CC
-        from: From
-        to: To
-    expand: show full timeline
-    filter:
-      byType:
-        all: All
-        files: Files
-        journey: Journey
-        milestones: Milestones
-        notes: Notes
-        people: People
-        tags: Tags
-      filterSelectLabel: 'Show: {filter}'
-      warning: The timeline is being filtered. Click here to remove the filter.
-    updates:
-      any:
-        addtags: '{actor} added {count, plural, =1 {a tag} other {# tags}}'
-        removetags: '{actor} removed {count, plural, =1 {a tag} other {# tags}}'
-      journeyinstance:
-        addassignee: '{actor} assigned {assignee}'
-        addnote: '{actor} added a note'
-        addsubject: '{actor} added {subject}'
-        close:
-          header: '{actor} closed the journey'
-        convert: '{actor} converted from {oldLabel} to {newLabel}'
-        create:
-          header: '{actor} started a new journey'
-        open: '{actor} opened the journey again'
-        removeassignee: '{actor} unassigned {assignee}'
-        removesubject: '{actor} removed {subject}'
-        update:
-          readMore: Read more
-          summary: '{actor} edited the summary'
-          title: '{actor} edited the title'
-        updatemilestone:
-          complete: '{actor} completed a milestone'
-          deadline: '{actor} updated a milestone deadline'
-          deadlineRemove: deadline was removed
-          deadlineUpdate: now due {datetime}
-          incomplete: '{actor} marked a milestone as incomplete'
