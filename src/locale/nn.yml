@@ -87,7 +87,6 @@ feat:
       month: Måned
       week: Uke
     selectionBar:
-      copy: Kopier
       deselect: Ikke velg
       editEvents: Rediger arrangementer
       ellipsisMenu:
@@ -100,7 +99,6 @@ feat:
         print: Skriv ut timeplan
         publish: Publiser
         unpublish: Avpubliser
-      move: Flytt
       moveCopyButtons:
         copy: Kopier
         copyMenuHeader: Kopier {numberOfEvents} arrangementer til
@@ -174,7 +172,6 @@ feat:
       defineButton: Rediger kriterier for fullføring
       subtitle: Folk som oppfyller fullføringskriteriene
       title: Ferdig
-    insightsHeader: Oppringinger og samtaler
     organizerActionPane:
       markAsSolved: Merk som løst
       markAsUnsolved: Merk som uløst
@@ -202,7 +199,6 @@ feat:
     tabs:
       callers: Ringere
       conversation: Samtale
-      insights: Analyse
       overview: Oversikt
     targets:
       defineButton: Velg målgruppe
@@ -249,7 +245,6 @@ feat:
       unsorted: Usorterte prosjekter
       upcoming: '{numEvents, number} kommende arrangementer.'
     allProjects:
-      linkToSummary: Gå til mine aktive prosjekter
       noActivities: Hvis organisasjonen din har aktiviteter som ikke tilhører et
         prosjekt vises de her.
       viewArchive: Vis arkiv
@@ -546,7 +541,6 @@ feat:
     placeholder: Skriv for å søke
     results:
       callassignment: Ringeoppdrag
-      campaign: Kampanje
       people: Folk
       person: Person
       survey: Spørreundersøkelse
@@ -590,14 +584,8 @@ feat:
           'false': en tom liste
           'true': alle i organisasjonen
       callBlocked:
-        addRemoveSelect:
-          add: Legg til
-          sub: Fjern
         inputString: '{addRemoveSelect} folk som er blokkert fra å ringes'
       callHistory:
-        addRemoveSelect:
-          add: Legg til
-          sub: Fjern
         assignmentSelect:
           any: et ringeoppdrag
           assignment: ringeoppdraget "{assignmentTitle}"
@@ -619,9 +607,6 @@ feat:
         activitySelect:
           activity: aktiviteten "{activity}"
           any: en aktivitet
-        addRemoveSelect:
-          add: Legg til
-          sub: Fjern
         bookedSelect:
           booked: blitt registrert på
           signed_up: meldt seg på
@@ -643,9 +628,6 @@ feat:
           any: et sted
           location: stedet "{location}"
       mostActive:
-        addRemoveSelect:
-          add: Legg til
-          sub: Fjern
         examples:
           one: Legg til de 100 mest aktive folka i organisasjonen før i dag.
           two: Fjern de 5 mest aktive folka i organisasjonen når som helst.
@@ -653,9 +635,6 @@ feat:
           plural, one {person} other {folka}} i organisasjonen {timeFrame}.'
         numPeople: '{numPeople, plural, one {person} other {folk}}'
       personData:
-        addRemoveSelect:
-          add: Legg til
-          sub: Fjern
         ellipsis: ...
         examples:
           one: Legg til folk med fornavn 'Clara' og etternavn 'Zetkin'.
@@ -676,9 +655,6 @@ feat:
         fieldTuple: '{first} og {second}'
         inputString: '{addRemoveSelect} folk med {criteria}.'
       personField:
-        addRemoveSelect:
-          add: Legg til
-          sub: Fjern
         edit:
           date: '{fieldSelect} er {timeFrame}'
           none: Organisasjonen har ingen spesialfelter
@@ -692,9 +668,6 @@ feat:
           text: '{fieldName} {searchTerm}'
           url: '{fieldName} {searchTerm}'
       personTags:
-        addRemoveSelect:
-          add: Legg til
-          sub: Fjern
         condition:
           conditionSelect:
             all: alle
@@ -711,9 +684,6 @@ feat:
           two: "Fjern folk med alle av følgende: 'Styremedlem'"
         inputString: '{addRemoveSelect} folk med {condition} av følgende: {tags}'
       personView:
-        addRemoveSelect:
-          add: Legg til
-          sub: Fjern
         examples:
           one: Legg til folk som er i lista 'Valgkamp'.
           two: Fjern folk som ikke er i lista 'Valgkamp'.
@@ -727,17 +697,11 @@ feat:
         addLimitRemoveSelect:
           add: Legg til
           sub: Fjern
-        addRemoveSelect:
-          add: legg til
-          sub: fjern
         examples:
           one: Legg til 20 folk i organisasjonen, ved å velge tilfeldig.
           two: Fjern 15% av folk i organisasjonen, ved å velge tilfeldig.
         inputString: '{addRemoveSelect} {quantity} i organisasjonen, ved å velge tilfeldig.'
       subQuery:
-        addRemoveSelect:
-          add: Legg til
-          sub: Fjern
         examples:
           one: Fjern folk som er i smartsøket 'Folk som bor i Nordland'.
           two: Legg til folk som er i målgruppa for ringeoppdraget 'Gjenbetalingsringing'.
@@ -764,9 +728,6 @@ feat:
             none: Denne organisasjonen har ingen ringeoppdrag eller smartsøk ennå.
             standalone: et annet smartsøk
       surveyOption:
-        addRemoveSelect:
-          add: Legg til
-          sub: Fjern
         conditionSelect:
           all: alle
           any: noen
@@ -785,9 +746,6 @@ feat:
           none: Denne organisasjonen har ingen spørreundersøkelser ennå
           survey: spørreundersøkelsen "{surveyTitle}"
       surveyResponse:
-        addRemoveSelect:
-          add: Legg til
-          sub: Fjern
         examples:
           one: Folk som har skrevet svar på undersøkelsen 'Valgkampundersøkelse' (alle
             spørsmål) som inneholder 'organisering'.
@@ -809,9 +767,6 @@ feat:
           none: Denne organisasjonen har ikke noen spørreundersøkelsen ennå
           survey: '"{surveyTitle}"'
       surveySubmission:
-        addRemoveSelect:
-          add: Legg til
-          sub: Fjern
         examples:
           one: Folk som har besvart 'Medlemsundersøkelse' før i dag.
           two: Folk som har besvart 'Medlemsundersøkelse' de siste 30 dagene.
@@ -821,9 +776,6 @@ feat:
           none: Denne organisasjonen har ikke noen spørreundersøkelsen ennå
           survey: '"{surveyTitle}"'
       task:
-        addRemoveSelect:
-          add: Legg til
-          sub: Fjern
         campaignSelect:
           any: et prosjekt
           campaign: prosjektet "{campaign}"
@@ -843,9 +795,6 @@ feat:
           completed: trykket fullført på
           ignored: trykket ignorer på
       user:
-        addRemoveSelect:
-          add: Legg til
-          sub: Fjern
         connectedSelect:
           'false': ikke har
           'true': har
@@ -1556,30 +1505,35 @@ feat:
         owner: Eier
         title: Tittel
       empty: Du har ikke opprettet noen lister
-glob:
-  accessLevels:
-    configure: Rediger og sett opp
-    edit: Redigering
-    readonly: Skrivebeskyttet
-  personFields:
-    alt_phone: Alternativt telefonnummer
-    city: Poststed
-    co_address: Alternativ adresse
-    country: Land
-    email: E-post
-    ext_id: Medlemsnummer
-    first_name: Fornavn
-    gender: Kjønn
-    id: Zetkin ID
-    is_user: Har bruker
-    last_name: Etternavn
-    phone: Telefonnummer
-    street_address: Adresse
-    zip_code: Postnummer
-  roles:
-    admin: Admin
-    organizer: Koordinator
 zui:
+  timeline:
+    addNotePlaceholder: Skriv her for å legge inn et notat
+    email:
+      headers:
+        cc: Cc
+        from: Fra
+        to: Til
+    expand: vis hele tidslinja
+    filter:
+      byType:
+        all: Alle
+        files: Filer
+        notes: Notater
+        people: Folk
+        tags: Etiketter
+      filterSelectLabel: 'Vis: {filter}'
+      warning: Tidslinja er filtrert, klikk her for å fjerne filter.
+    updates:
+      any:
+        addtags: '{actor} la til {count, plural, =1 {en etikett} other {# etiketter}}'
+        removetags: '{actor} fjernet {count, plural, =1 {en etikett} other {# etiketter}}'
+      journeyinstance:
+        addassignee: '{actor} tildelte kontaktperson {assignee}'
+        addnote: '{actor} la til et notat'
+        addsubject: '{actor} la til {subject}'
+        convert: '{actor} konverterte fra {oldLabel} til {newLabel}'
+        update:
+          readMore: Les mer
   accessList:
     added: Lagt til av {sharer} {updated}
     removeAccess: Fjern tilgang
@@ -1629,7 +1583,6 @@ zui:
   lists:
     showMore: Vis mer...
   organizeSidebar:
-    allOrganizations: Alle organisasjonsledd
     areas: Steder
     home: Hjem
     people: Folk
@@ -1655,7 +1608,6 @@ zui:
     createCampaign: Nytt prosjekt
     createEvent: Nytt arrangement
     createTask: Nytt innhold
-    requestError: Noe gikk galt
   submitOrCancel:
     cancel: Avbryt
     submit: Send inn
@@ -1665,31 +1617,3 @@ zui:
     multiDayEndsToday: '{startDate}, {start} - I dag, {end}'
     multiDayToday: I dag, {start} - {endDate}, {end}
     singleDayToday: I dag, {start} - {end}
-  timeline:
-    addNotePlaceholder: Skriv her for å legge inn et notat
-    email:
-      headers:
-        cc: Cc
-        from: Fra
-        to: Til
-    expand: vis hele tidslinja
-    filter:
-      byType:
-        all: Alle
-        files: Filer
-        notes: Notater
-        people: Folk
-        tags: Etiketter
-      filterSelectLabel: 'Vis: {filter}'
-      warning: Tidslinja er filtrert, klikk her for å fjerne filter.
-    updates:
-      any:
-        addtags: '{actor} la til {count, plural, =1 {en etikett} other {# etiketter}}'
-        removetags: '{actor} fjernet {count, plural, =1 {en etikett} other {# etiketter}}'
-      journeyinstance:
-        addassignee: '{actor} tildelte kontaktperson {assignee}'
-        addnote: '{actor} la til et notat'
-        addsubject: '{actor} la til {subject}'
-        convert: '{actor} konverterte fra {oldLabel} til {newLabel}'
-        update:
-          readMore: Les mer
