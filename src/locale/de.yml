@@ -87,7 +87,6 @@ feat:
       month: Monat
       week: Woche
     selectionBar:
-      copy: Kopieren
       deselect: Auswahl aufheben
       editEvents: Aktionen bearbeiten
       ellipsisMenu:
@@ -101,7 +100,6 @@ feat:
         print: Zeitplan drucken
         publish: Veröffentlichen
         unpublish: Verbergen
-      move: Verschieben
       moveCopyButtons:
         copy: Kopieren
         copyMenuHeader: Kopiere {numberOfEvents} Aktionen zu
@@ -175,7 +173,6 @@ feat:
       defineButton: Bearbeite Kriterien für Status Erledigt
       subtitle: Zielpersonen mit Status Erledigt
       title: Erledigt
-    insightsHeader: Telefonate und Gespräche
     organizerActionPane:
       markAsSolved: Als behoben markieren
       markAsUnsolved: Als nicht gelöst markieren
@@ -203,7 +200,6 @@ feat:
     tabs:
       callers: Telefonierer*innen
       conversation: Gespräch
-      insights: Statistik
       overview: Überblick
     targets:
       defineButton: Definiere Zielgruppe
@@ -250,7 +246,6 @@ feat:
       unsorted: Unsortierte Projekte
       upcoming: '{numEvents, number} anstehende Aktionen'
     allProjects:
-      linkToSummary: Gehe zu meinen aktuellen Projekten.
       noActivities: Wenn deine Gruppe von Projekten unabhängige Aktivitäten hat,
         werden sie hier angezeigt.
       viewArchive: Archiv anzeigen
@@ -566,7 +561,6 @@ feat:
     placeholder: Tippe, um zu suchen
     results:
       callassignment: Telefonaktion
-      campaign: Kampagne
       people: Personen
       person: Person
       project: Projekt
@@ -612,15 +606,9 @@ feat:
           'false': leere Liste
           'true': Liste aller Personen in der Organisation
       callBlocked:
-        addRemoveSelect:
-          add: Hinzufügen
-          sub: Entfernen
         inputString: '{addRemoveSelect} Personen, die zum Anrufen aus irgendwelchen
           Gründen blockiert sind'
       callHistory:
-        addRemoveSelect:
-          add: Hinzufügen
-          sub: Entfernen
         assignmentSelect:
           any: irgendeiner Aufgabe
           assignment: Telefonaktion "{assignmentTitle}"
@@ -642,9 +630,6 @@ feat:
         activitySelect:
           activity: Typ "{activity}"
           any: irgendeine
-        addRemoveSelect:
-          add: Hinzufügen
-          sub: Entfernen
         bookedSelect:
           booked: gebucht
           signed_up: angemeldet
@@ -666,9 +651,6 @@ feat:
           any: irgendein Ort
           location: Ort "{location}"
       mostActive:
-        addRemoveSelect:
-          add: Hinzufügen
-          sub: Entfernen
         examples:
           one: Füge die 100 aktivsten Mitglieder der Organisation vor heute hinzu.
           two: Entferne die zu irgendeinem Zeitpunkt 5 aktivsten Mitglieder der
@@ -677,9 +659,6 @@ feat:
           der Organisation {timeFrame}.'
         numPeople: '{numPeople, plural, one {Person} other {Personen}}'
       personData:
-        addRemoveSelect:
-          add: Hinzufügen
-          sub: entfernen
         ellipsis: ...
         examples:
           one: Füge alle Personen hinzu, deren Vorname 'Clara' und deren Nachname 'Zetkin'
@@ -701,9 +680,6 @@ feat:
         fieldTuple: '{first} und {second}'
         inputString: '{addRemoveSelect} jede Person deren {criteria}.'
       personField:
-        addRemoveSelect:
-          add: Hinzufügen
-          sub: Entfernen
         edit:
           date: '{fieldSelect} ist {timeFrame}'
           none: Diese Organisation hat bisher keine benutzerdefinierten Felder.
@@ -717,9 +693,6 @@ feat:
           text: '{fieldName} entspricht "{searchTerm}"'
           url: '{fieldName} entspricht "{searchTerm}"'
       personTags:
-        addRemoveSelect:
-          add: Hinzufügen
-          sub: Entfernen
         condition:
           conditionSelect:
             all: alle
@@ -737,9 +710,6 @@ feat:
         inputString: '{addRemoveSelect} Personen mit {condition} der folgenden
           Stichworte: {tags}'
       personView:
-        addRemoveSelect:
-          add: Hinzufügen
-          sub: Entfernen
         examples:
           one: Füge Personen hinzu, die in der Liste "Aktive Mitglieder 2022" stehen.
           two: Entferne Personen, die nicht in der Liste "Aktive Mitglieder 2022" stehen.
@@ -755,16 +725,11 @@ feat:
           add: hinzufügen
           limit: Nur
           sub: entfernen
-        addRemoveSelect:
-          add: hinzufügen
-          sub: entfernen
         examples:
           one: Füge zufällig 20 Personen aus der Organisation hinzu.
           two: Entferne zufällig 15% der Personen der Organisation.
         inputString: Zufällig {addRemoveSelect} {quantity} Personen in der Organisation.
       subQuery:
-        addRemoveSelect:
-          add: Hinzufügen
         examples:
           one: Entferne Personen, die der Intelligenten Suche 'Personen, die in Stockholm
             leben' entsprechen.
@@ -794,9 +759,6 @@ feat:
               Suchanfragen.
             standalone: eigenständige Intelligente Suchanfrage
       surveyOption:
-        addRemoveSelect:
-          add: Hinzufügen
-          sub: Entfernen
         conditionSelect:
           all: alle
           any: irgendeine
@@ -816,9 +778,6 @@ feat:
           none: Diese Organisation hat bisher keine angelegten Umfragen.
           survey: Umfrage "{surveyTitle}"
       surveyResponse:
-        addRemoveSelect:
-          add: Hinzufügen
-          sub: Entfernen
         examples:
           one: Personen, deren Antworten in der Umfrage 'Mitgliederumfrage' (irgendeine
             Frage) 'organize' beinhalten.
@@ -840,9 +799,6 @@ feat:
           none: Diese Organisation hat bisher keine angelegten Umfragen.
           survey: Umfrage "{surveyTitle}"
       surveySubmission:
-        addRemoveSelect:
-          add: Hinzufügen
-          sub: Entfernen
         examples:
           one: Personen, die an der Umfrage 'Mitgliederumfrage 2020' vor heute
             teilgenommen haben.
@@ -855,9 +811,6 @@ feat:
           none: Diese Organisation hat bisher keine angelegten Umfragen.
           survey: Umfrage "{surveyTitle}"
       task:
-        addRemoveSelect:
-          add: Hinzufügen
-          sub: Entfernen
         campaignSelect:
           any: irgendein Projekt
           campaign: Projekt "{campaign}"
@@ -877,9 +830,6 @@ feat:
           completed: beendet
           ignored: ignoriert
       user:
-        addRemoveSelect:
-          add: Hinzufügen
-          sub: Entfernen
         connectedSelect:
           'false': nicht verknüpft
           'true': verknüpft
@@ -1608,30 +1558,41 @@ feat:
         owner: Erstellt von
         title: Überschrift
       empty: Du hast noch keine Listen erstellt.
-glob:
-  accessLevels:
-    configure: Bearbeiten & Erstellen
-    edit: In Bearbeitung
-    readonly: Schreibgeschützte Ansicht
-  personFields:
-    alt_phone: Weitere Telefonnummer
-    city: Stadt
-    co_address: Adresszusatz
-    country: Land
-    email: Email
-    ext_id: Externe ID
-    first_name: Vorname
-    gender: Geschlechtsidentität
-    id: ID
-    is_user: hat Profil
-    last_name: Nachname
-    phone: Telefonnummer
-    street_address: Adresse
-    zip_code: Postleitzahl
-  roles:
-    admin: Admin
-    organizer: Organizer*in
 zui:
+  timeline:
+    addNotePlaceholder: Tippe, um eine Notiz zu erstellen
+    email:
+      headers:
+        cc: CC
+        from: Von
+        to: An
+    expand: gesamte Zeitleiste einblenden
+    filter:
+      byType:
+        all: Alle
+        files: Ordner
+        milestones: Meilensteine
+        notes: Notizen
+        people: Personen
+        tags: Stichworte
+      filterSelectLabel: 'Zeige: {filter}'
+      warning: Die Zeitleiste erscheint gefiltert. Klicke hier, um den Filter zu
+        entfernen.
+    updates:
+      any:
+        addtags: '{actor} hat {count, plural, =1 {ein Stichwort} other {# Stichworte}}
+          hinzugefügt'
+        removetags: '{actor} hat {count, plural, =1 {ein Stichwort} other {#
+          Stichworte}} entfernt'
+      journeyinstance:
+        addassignee: '{actor} hat {assignee} zugewiesen'
+        addnote: '{actor} hat eine Notiz hinzugefügt'
+        addsubject: '{actor} hat {subject} hinzugefügt'
+        update:
+          readMore: Mehr
+        updatemilestone:
+          deadlineRemove: Frist gelöscht
+          incomplete: '{actor} hat Meilenstein als unvollständig markiert'
   accessList:
     added: Hinzugefügt durch {sharer} {updated}
     removeAccess: Rechte beschränken
@@ -1685,7 +1646,6 @@ zui:
   lists:
     showMore: Mehr anzeigen...
   organizeSidebar:
-    allOrganizations: Alle Organisationen
     areas: Bereiche
     filter: Tippe, um zu filtern
     home: Startseite
@@ -1714,7 +1674,6 @@ zui:
     createCampaign: Erstelle Kampagne
     createEvent: Erstelle Aktion
     createTask: Erstelle Aufgabe
-    requestError: Es ist ein Fehler aufgetreten.
   submitOrCancel:
     cancel: Abbrechen
     submit: Erstellen
@@ -1722,37 +1681,3 @@ zui:
     multiDayEndsToday: '{startDate}, {start} - Heute, {end}'
     multiDayToday: Heute, {start} - {endDate}, {end}
     singleDayToday: Heute, {start} - {end}
-  timeline:
-    addNotePlaceholder: Tippe, um eine Notiz zu erstellen
-    email:
-      headers:
-        cc: CC
-        from: Von
-        to: An
-    expand: gesamte Zeitleiste einblenden
-    filter:
-      byType:
-        all: Alle
-        files: Ordner
-        milestones: Meilensteine
-        notes: Notizen
-        people: Personen
-        tags: Stichworte
-      filterSelectLabel: 'Zeige: {filter}'
-      warning: Die Zeitleiste erscheint gefiltert. Klicke hier, um den Filter zu
-        entfernen.
-    updates:
-      any:
-        addtags: '{actor} hat {count, plural, =1 {ein Stichwort} other {# Stichworte}}
-          hinzugefügt'
-        removetags: '{actor} hat {count, plural, =1 {ein Stichwort} other {#
-          Stichworte}} entfernt'
-      journeyinstance:
-        addassignee: '{actor} hat {assignee} zugewiesen'
-        addnote: '{actor} hat eine Notiz hinzugefügt'
-        addsubject: '{actor} hat {subject} hinzugefügt'
-        update:
-          readMore: Mehr
-        updatemilestone:
-          deadlineRemove: Frist gelöscht
-          incomplete: '{actor} hat Meilenstein als unvollständig markiert'

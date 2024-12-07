@@ -90,7 +90,6 @@ feat:
       month: Måned
       week: Uge
     selectionBar:
-      copy: Kopi
       deselect: Fravælg
       editEvents: Rediger begivenheder
       ellipsisMenu:
@@ -105,7 +104,6 @@ feat:
         print: Print skema
         publish: Offentliggør nu
         unpublish: Tilbagetræk offentliggørelse
-      move: Flyt
     showMore: Vis
     today: I dag
   callAssignments:
@@ -196,7 +194,6 @@ feat:
     tabs:
       callers: Ringere
       conversation: Samtaler
-      insights: Indsigter
       overview: Overblik
     targets:
       defineButton: Definer målgruppen
@@ -243,7 +240,6 @@ feat:
       unsorted: Usortede projekter
       upcoming: '{numEvents, number} kommende begivenheder.'
     allProjects:
-      linkToSummary: Gå til mine aktive projekter.
       noActivities: Hvis din organisation har aktiviteter, der ikke hører til et
         projekt, bliver de vist her.
       viewArchive: Vis arkiv
@@ -559,7 +555,6 @@ feat:
     placeholder: Skriv for at søge
     results:
       callassignment: Ringeopgave
-      campaign: Kampagne
       people: Personer
       person: Person
       survey: Spørgeskema
@@ -603,15 +598,9 @@ feat:
           'false': en tom liste
           'true': en liste med alle personer i organisationen
       callBlocked:
-        addRemoveSelect:
-          add: Tilføj
-          sub: Fjern
         inputString: '{addRemoveSelect} personer som er blokeret fra at ringe af en
           hvilken som helst grund'
       callHistory:
-        addRemoveSelect:
-          add: Tilføj
-          sub: Fjern
         assignmentSelect:
           any: hvilken som helst opgave
           assignment: opgave "{assignmentTitle}"
@@ -633,9 +622,6 @@ feat:
         activitySelect:
           activity: type "{activity}"
           any: enhver type
-        addRemoveSelect:
-          add: Tilføj
-          sub: Fjern
         bookedSelect:
           booked: blevet booket
           signed_up: tilmeldt
@@ -658,9 +644,6 @@ feat:
           any: enhver lokation
           location: lokation "{location}"
       mostActive:
-        addRemoveSelect:
-          add: Tilføj
-          sub: Fjern
         examples:
           one: Tilføj de 100 mest aktive medlemmer af organisationen før dags dato.
           two: Fjern de fem mest aktive medlemmer af organisationen nogensinde.
@@ -669,9 +652,6 @@ feat:
         numPeople: '{numPeople, plural, one {person} other {personer}}'
         numPeopleSelect: '{numPeopleSelect}'
       personData:
-        addRemoveSelect:
-          add: Tilføj
-          sub: fjern
         ellipsis: ...
         examples:
           one: Tilføj alle personer, hvis fornavn er 'Clara' og hvis efternavn er
@@ -693,9 +673,6 @@ feat:
         fieldTuple: '{first} og {second}'
         inputString: '{addRemoveSelect} alle der {criteria}.'
       personField:
-        addRemoveSelect:
-          add: Tilføj
-          sub: Fjern
         edit:
           date: '{fieldSelect} er {timeFrame}'
           none: Denne organisation har ingen brugerdefinerede felter endnu.
@@ -709,9 +686,6 @@ feat:
           text: '{fieldName} matcher "{searchTerm}"'
           url: '{fieldName} matcher "{searchTerm}"'
       personTags:
-        addRemoveSelect:
-          add: Tilføj
-          sub: Fjern
         condition:
           conditionSelect:
             all: alle
@@ -734,9 +708,6 @@ feat:
         inputString: '{addRemoveSelect} personer med {condition} af de følgende
           etiketter: {tags}'
       personView:
-        addRemoveSelect:
-          add: Tilføj
-          sub: Fjern
         examples:
           one: Tilføj personer, der er på listen "Aktive Medlemmer 2022".
           two: Fjern personer, der ikke er på listen "Aktive Medlemmer 2022".
@@ -750,17 +721,11 @@ feat:
         addLimitRemoveSelect:
           add: tilføj
           sub: fjern
-        addRemoveSelect:
-          add: tilføj
-          sub: fjern
         examples:
           one: Tilføj 20 tilfældige personer fra organisationen.
           two: Fjern tilfældige 15% af personerne fra organisationen.
         inputString: '{addRemoveSelect} Tilfældige {quantity} fra organisationen.'
       subQuery:
-        addRemoveSelect:
-          add: Tilføj
-          sub: Erstat
         examples:
           one: Fjern personer, der matcher Smart Søgningen 'Personer, der bor i
             Stockholm'.
@@ -791,9 +756,6 @@ feat:
             none: Denne organisation har ingen ringeopgaver eller Smarte Søgninger endnu.
             standalone: en enkeltstående Smart Søgning
       surveyOption:
-        addRemoveSelect:
-          add: Tilføj
-          sub: Fjern
         conditionSelect:
           all: alle
           any: hvilke som helst
@@ -813,9 +775,6 @@ feat:
           none: Denne organisation har ingen spørgeskemaer endnu
           survey: spørgeskema "{surveyTitle}"
       surveyResponse:
-        addRemoveSelect:
-          add: Tilføj
-          sub: Fjern
         examples:
           one: Personer hvis svar på spørgeskemaet 'medlemsspørgeskema' (question
             'Question one') indeholder 'organizer'
@@ -837,9 +796,6 @@ feat:
           none: Denne organisation har ingen spørgeskemaer endnu
           survey: spørgeskema "{surveyTitle}"
       surveySubmission:
-        addRemoveSelect:
-          add: Tilføj
-          sub: Fjern
         examples:
           one: Personer, der har afgivet svar på spørgeskemaet 'Medlemsspørgeskema 2020'
             før i dag.
@@ -852,9 +808,6 @@ feat:
           none: Denne organisation har ingen spørgeskemaer endnu
           survey: spørgeskema "{surveyTitle}"
       task:
-        addRemoveSelect:
-          add: Tilføj
-          sub: Fjern
         campaignSelect:
           any: et hvilket som helst projekt
           campaign: projekt "{campaign}"
@@ -874,9 +827,6 @@ feat:
           completed: afsluttet
           ignored: ignoreret
       user:
-        addRemoveSelect:
-          add: Tilføj
-          sub: Fjern
         connectedSelect:
           'false': ikke tilknyttet
           'true': tilknyttet
@@ -1608,30 +1558,35 @@ feat:
         owner: Ejer
         title: Titel
       empty: Du har ikke skabt nogle lister endnu.
-glob:
-  accessLevels:
-    configure: Rediger
-    edit: Redigerer
-    readonly: Skrivebeskyttet
-  personFields:
-    alt_phone: Andet telefonnummer
-    city: By
-    co_address: C/O Adresse
-    country: Land
-    email: Email
-    ext_id: Eksternt ID
-    first_name: Fornavn
-    gender: Køn
-    id: ID
-    is_user: Er bruger
-    last_name: Efternavn
-    phone: Telefonnummer
-    street_address: Adresse
-    zip_code: Postnummer
-  roles:
-    admin: Administrator
-    organizer: Organisator
 zui:
+  timeline:
+    addNotePlaceholder: Skriv her for at efterlade en note
+    email:
+      headers:
+        cc: CC
+        from: Fra
+        to: Til
+    expand: vis hele tidslinjen
+    filter:
+      byType:
+        all: Alle
+        files: Filer
+        milestones: Milepæle
+        notes: Noter
+        people: Personer
+        tags: Etiketter
+      filterSelectLabel: 'Vis: {filter}'
+      warning: Tidslinjen bliver filtreret. Klick her for at fjerne filteret.
+    updates:
+      any:
+        addtags: '{actor} tilføjede {count, plural, =1 {en etiket} other {# etiketter}}'
+        removetags: '{actor} fjernede {count, plural, =1 {en etiket} other {# etiketter}}'
+      journeyinstance:
+        addassignee: '{actor} tildelt {assignee}'
+        addnote: '{actor} tilføjede en note'
+        removeassignee: '{actor} har fjernet {assignee}'
+        updatemilestone:
+          incomplete: '{actor} har markeret en milepæl som ufærdig'
   accessList:
     added: Tilføjet af {sharer} {updated}
     removeAccess: Fjern adgang
@@ -1680,7 +1635,6 @@ zui:
   lists:
     showMore: Vis mere...
   organizeSidebar:
-    allOrganizations: Alle organisationer
     areas: Områder
     home: Hjem
     people: Personer
@@ -1706,7 +1660,6 @@ zui:
     createCampaign: Opret kampagne
     createEvent: Opret begivenhed
     createTask: Opret opgave
-    requestError: Der er sket en fejl
   submitOrCancel:
     cancel: Afbryd
     submit: Indsend
@@ -1718,31 +1671,3 @@ zui:
     multiDayToday: I dag, {start} - {endDate}, {end}
     singleDay: '{date}, {start} - {end}'
     singleDayToday: I dag, {start} - {end}
-  timeline:
-    addNotePlaceholder: Skriv her for at efterlade en note
-    email:
-      headers:
-        cc: CC
-        from: Fra
-        to: Til
-    expand: vis hele tidslinjen
-    filter:
-      byType:
-        all: Alle
-        files: Filer
-        milestones: Milepæle
-        notes: Noter
-        people: Personer
-        tags: Etiketter
-      filterSelectLabel: 'Vis: {filter}'
-      warning: Tidslinjen bliver filtreret. Klick her for at fjerne filteret.
-    updates:
-      any:
-        addtags: '{actor} tilføjede {count, plural, =1 {en etiket} other {# etiketter}}'
-        removetags: '{actor} fjernede {count, plural, =1 {en etiket} other {# etiketter}}'
-      journeyinstance:
-        addassignee: '{actor} tildelt {assignee}'
-        addnote: '{actor} tilføjede en note'
-        removeassignee: '{actor} har fjernet {assignee}'
-        updatemilestone:
-          incomplete: '{actor} har markeret en milepæl som ufærdig'
