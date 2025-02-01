@@ -3,6 +3,14 @@ import { remoteItem, remoteList } from 'utils/storeUtils';
 
 export default function mockState(overrides?: RootState) {
   const emptyState: RootState = {
+    areaAssignments: {
+      areaAssignmentList: remoteList(),
+      areaGraphByAssignmentId: {},
+      areaStatsByAssignmentId: {},
+      locationList: remoteList(),
+      sessionsByAssignmentId: {},
+      statsByAreaAssId: {},
+    },
     areas: {
       areaList: remoteList(),
       tagsByAreaId: {},
@@ -16,26 +24,22 @@ export default function mockState(overrides?: RootState) {
       callList: remoteList(),
       callersById: {},
       statsById: {},
+      userAssignmentList: remoteList(),
     },
     campaigns: {
       campaignList: remoteList(),
       campaignsByOrgId: {},
       recentlyCreatedCampaign: null,
     },
-    canvassAssignments: {
-      areaGraphByAssignmentId: {},
-      areaStatsByAssignmentId: {},
-      canvassAssignmentList: remoteList(),
+    canvass: {
       myAssignmentsWithAreasList: remoteList(),
-      placeList: remoteList(),
-      sessionsByAssignmentId: {},
-      statsByCanvassAssId: {},
       visitsByAssignmentId: {},
     },
     duplicates: {
       potentialDuplicatesList: remoteList(),
     },
     emails: {
+      configList: remoteList(),
       emailList: remoteList(),
       insightsByEmailId: {},
       linksByEmailId: {},
@@ -43,6 +47,7 @@ export default function mockState(overrides?: RootState) {
       themeList: remoteList(),
     },
     events: {
+      allEventsList: remoteList(),
       eventList: remoteList(),
       eventsByCampaignId: {},
       eventsByDate: {},
@@ -60,6 +65,7 @@ export default function mockState(overrides?: RootState) {
       selectedEventIds: [],
       statsByEventId: {},
       typeList: remoteList(),
+      userEventList: remoteList(),
     },
     files: {
       fileList: remoteList(),

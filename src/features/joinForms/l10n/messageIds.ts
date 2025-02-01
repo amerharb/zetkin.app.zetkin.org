@@ -14,6 +14,7 @@ export default makeMessages('feat.joinForms', {
       addField: m('Add field'),
       description: m('Description'),
       requireEmailVerification: m('Require e-mail verification'),
+      shareWithSuborgs: m('Share with sub-organizations'),
       title: m('Title'),
     },
     title: m('Edit form'),
@@ -39,5 +40,11 @@ export default makeMessages('feat.joinForms', {
     approveButton: m('Approve'),
     form: m('Form'),
     rejectButton: m('Reject'),
+  },
+  submissionVerifiedPage: {
+    h: m('Thank you!'),
+    info: m<{ org: string }>(
+      'Your submission has been verified and organizers in {org} will review it shortly.'
+    ),
   },
 });

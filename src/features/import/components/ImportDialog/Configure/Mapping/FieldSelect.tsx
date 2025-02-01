@@ -43,6 +43,10 @@ const FieldSelect: FC<FieldSelectProps> = ({
       return `enum:${column.originalColumn.field}`;
     }
 
+    if (column.originalColumn.kind == ColumnKind.GENDER) {
+      return `field:gender`;
+    }
+
     if (column.originalColumn.kind != ColumnKind.UNKNOWN) {
       return column.originalColumn.kind.toString();
     }
@@ -53,12 +57,17 @@ const FieldSelect: FC<FieldSelectProps> = ({
 
   // This has to be a function, not a component with PascalCase. If it is used
   // as a component, the `Select` below won't recognise it as a valid option.
-  const listOption = ({ value, label, key }: Option & { key?: string }) => {
+  const listOption = ({
+    disabled,
+    value,
+    label,
+    key,
+  }: Option & { key?: string }) => {
     const alreadySelected = optionAlreadySelected(value);
     return (
       <MenuItem
         key={key}
-        disabled={alreadySelected}
+        disabled={alreadySelected || disabled}
         sx={{ paddingLeft: 4 }}
         value={value}
       >
@@ -101,6 +110,14 @@ const FieldSelect: FC<FieldSelectProps> = ({
             selected: true,
           });
           onConfigureStart();
+        } else if (event.target.value == 'field:gender') {
+          onChange({
+            field: event.target.value,
+            kind: ColumnKind.GENDER,
+            mapping: [],
+            selected: true,
+          });
+          onConfigureStart();
         } else if (event.target.value.startsWith('field')) {
           onChange({
             field: event.target.value.slice(6),
@@ -132,11 +149,13 @@ const FieldSelect: FC<FieldSelectProps> = ({
         <Msg id={messageIds.configuration.mapping.zetkinFieldGroups.id} />
       </ListSubheader>
       {listOption({
+        disabled: false,
         label: messages.configuration.mapping.zetkinID(),
         value: 'id',
       })}
 
       {listOption({
+        disabled: false,
         label: messages.configuration.mapping.externalID(),
         value: 'ext_id',
       })}
@@ -152,10 +171,12 @@ const FieldSelect: FC<FieldSelectProps> = ({
         <Msg id={messageIds.configuration.mapping.zetkinFieldGroups.other} />
       </ListSubheader>
       {listOption({
+        disabled: false,
         label: messages.configuration.mapping.organization(),
         value: 'org',
       })}
       {listOption({
+        disabled: false,
         label: messages.configuration.mapping.tags(),
         value: 'tag',
       })}
