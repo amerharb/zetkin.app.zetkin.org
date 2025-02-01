@@ -12,6 +12,10 @@ core:
       använda. Du omdirigeras nu till den äldre versionen av Zetkin som stödjer
       den funktionen.
 feat:
+  areas:
+    areas:
+      areaSettings:
+        delete: ta bort
   breadcrumbs:
     elements:
       activities: Aktiviteter
