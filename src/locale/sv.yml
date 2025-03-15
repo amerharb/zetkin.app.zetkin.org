@@ -12,6 +12,9 @@ core:
       använda. Du omdirigeras nu till den äldre versionen av Zetkin som stödjer
       den funktionen.
 feat:
+  areas:
+    page:
+      title: lkjhoih
   breadcrumbs:
     elements:
       activities: Aktiviteter
