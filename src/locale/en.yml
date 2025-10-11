@@ -2,7 +2,7 @@ core:
   err404:
     backToHomePage:
       state: UPDATED
-      text: ZZZZ
+      text: AAAA
     pageNotFound:
       state: UPDATED
       text: '1422'
